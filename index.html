@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+
+  <div class="container">
+    <div class="hero-images">
+       <img class="mobile-image" src="./assets/images/illustration-sign-up-mobile.svg" class=".hero-image" alt="">
+       <img class="tablet-image" src="./assets/images/illustration-sign-up-tablet.svg" alt="">
+       <img class="desktop-image" src="./assets/./images/illustration-sign-up-desktop.svg" alt="">
+    </div>
+   
+    <div class="bottom-content">
+      <h1> 
+        Stay updated!
+      </h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:
+      </p>
+
+      <!-- unordered list -->
+      <div class="icon-list">
+        <ul>
+          <li>
+            <span>
+              <img src="./assets/images/icon-list.svg" alt="">
+            </span>
+            <span class="text">
+              Product discovery and building what matters
+            </span>
+          </li>
+          <li>
+             <span>
+              <img src="./assets/images/icon-list.svg" alt="">
+            </span>
+            <span class="text">
+              Measuring to ensure updates are a success
+            </span>
+          </li>
+          <li>
+            <span>
+              <img src="./assets/images/icon-list.svg" alt="">
+            </span>
+            <span class="text">
+              And much more!
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Form field -->
+      <div class="form-field">
+        <small>Email address</small>
+        
+        <fieldset>
+          <!-- <label for="email"></label> -->
+          <input type="text" placeholder="email@company.com" required id="email" name="email" class="form-element">
+          <p id="errorMsg"></p>
+        </fieldset>
+        <button id="submitBtn" class="form-element btn-primary">Subscribe to monthly newsletter
+        </button>
+        
+        
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Zarah Sada</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

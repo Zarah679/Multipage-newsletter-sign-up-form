@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: hsl(235, 18%, 26%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 375px;
+    min-height: 100vh;
+    margin-bottom: 1rem;
+}
+
+.tablet-image,
+.desktop-image  {
+    display: none;
+}
+
+p, 
+h1 {
+    color: hsl(234, 29%, 20%);
+}
+
+.bottom-content {
+    padding: 24px;
+}
+
+.bottom-content h1 {
+    margin: 1rem 0 1.5rem 0;
+    font-size: 40px;
+}
+
+.bottom-content p {
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 1.2rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: flex-start;  /*make icon aligned with the first line */
+    margin-bottom: 0.75rem;
+    gap: 16px;
+}
+
+.text  {
+    line-height: 1.5;
+}
+
+.form-field small {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+fieldset {
+    border: none;
+}
+
+.form-element {
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    border: solid 1px;
+}
+
+input {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    border: 1px solid hsl(234, 29%, 20%);
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: hsl(234, 29%, 20%);
+}
+
+.btn-primary {
+    background: hsl(234, 29%, 20%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right,#FF6A3A, #FF527B);
+}
+
+@media screen and (min-width: 870px) {
+    .container {
+        max-width: 850px;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        min-height: auto;
+    }
+
+    .mobile-image  {
+        display: none;
+    }
+
+    .tablet-image {
+        display: block;
+    }
+
+    .bottom-content {
+        padding: 0px;
+    }
+
+    .bottom-content h1 {
+        font-size: 56px;
+    }
+
+
+}
+
+@media screen and (min-width: 1124px) {
+
+    body {
+        padding: 4rem;
+    }
+    .container {
+        max-width: 1000px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+
+    .tablet-image {
+        display: none;
+    }
+
+    .desktop-image {
+        display: block;
+    }
+
+    .hero-images {
+        flex: 1;
+        order: 2;
+    }
+    
+    .bottom-content {
+        flex: 1;
+        order: 1;
+        padding: 2rem;
+    }
+
+    .bottom-content h1, p, ul {
+        margin-bottom: 2rem;
+    }
+
+    .form-element {
+        max-width: 90%;
+    }
+
+
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: #fff;
+}
+    
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/* SUCCESS PAGE */
+
+.wrapper {
+    background: white;
+    min-height: 100vh;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    align-items: flex-start;
+    padding: 2rem;
+    border-radius: 16px;
+    font-family: 'Roboto';
+    
+}
+
+.wrapper p {
+    margin-bottom: 6rem;
+    max-width: 327px;
+    line-height: 1.5;
+}
+
+.wrapper p span {
+    font-weight: bold;
+}
+
+
+.wrapper h1 {
+    width: 200px;
+    font-size: 40px;
+}
+
+.wrapper .checkmark-img {
+    margin-top: 2rem;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 16px;
+    border-radius: 12px;
+    background: hsl(234, 29%, 20%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    border: none;
+    cursor: pointer;
+}
+
+.email-hightlight {
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    .wrapper {
+        padding:  1rem 2rem 2rem ;
+        max-width: 400px;
+        gap: 1rem;
+        min-height: 500px;
+    }
+
+    .wrapper h1 {
+        font-size: 56px;
+        width: 400px;
+    }
+
+    .wrapper p {
+        margin-bottom: 0;
+    }
+}
+
+
+
+
