@@ -94,7 +94,7 @@ CSS Tricks - Flexbox Guide
 
 ## Author
 
-- Website - [Zarah Sada](https://www.your-site.com)
+- Website - [Zarah Sada](https://https://zarah679.github.io/Multipage-newsletter-sign-up-form/index.html)
 - Frontend Mentor - [@Zarah679](https://www.frontendmentor.io/profile/Zarah679)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
