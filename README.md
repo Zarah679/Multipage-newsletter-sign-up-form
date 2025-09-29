@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here][(https://your-solution-url.com](https://www.frontendmentor.io/solutions/newsletter-sign-up-form-with-success-message-akCoYsByh7))
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://zarah679.github.io/Multipage-newsletter-sign-up-form/))
 
 ## My process
 
